@@ -64,8 +64,8 @@
 
 /* second half */
 .weather-info{
-  margin-left: 75px;
-  width: 51%;
+  margin-left: 1rem;
+  width: 52rem;
   padding: 30px;
 }
 
@@ -86,8 +86,8 @@
 /* search bar */
 
 .boxContainer{
-  width: 400px;
-  height: 50px;
+  width: 20rem;
+  height: 3.5rem;
   border: 4px solid rgb(245, 243, 243);
   padding: 2px;
   border-radius: 50px;
@@ -120,10 +120,8 @@
 
 /* temp container */
 .container{
-  width: 100%;
-  margin-top: 30px;
+  margin-top: 2rem;
   border: 1px solid lightgray;
-  /* border: none; */
   border-radius: 20px;
   display: flex;
   background-color: white;
@@ -133,30 +131,30 @@
   height: 150px;
 }
 
+.container{
+  background-color: skyblue;
+}
 .background{
   background-image: url(../img/bg.jpg);
   flex-direction: row-reverse;
-}
-.container{
-  background-color: skyblue;
+  height: 9rem;
 }
 .container h3{
   font-size: x-large;
   font-weight: 800;
-  padding-top: 10px;
-  margin-left: 200px;
+  padding-top: 1rem;
+  margin-left: 20rem;
   font-family: sans-serif;
 }
 
 .container p{
-  padding-top: 0;
+  padding-top: 0rem;
   font-weight: 500;
-  margin-left: 200px;
+  margin-left: 20rem;
   font-family: sans-serif;
 }
 
 .temp {
-  padding-top: 1px;
   font-size: 40px;
 }
 /* <--------> */
@@ -231,7 +229,7 @@
   padding-top: 10px;
 }
 .dcard{
-  width: 30%;
+  width: 12rem;
   height: 130px;
   padding: 10px;
   margin: 10px;
@@ -271,7 +269,7 @@
   font-size: 14px;
 }
 .cfull p{
-  font-size: 25px;
+  font-size: 1.5rem;
   margin-left: 30px;
   padding-bottom: 50px;
 }
@@ -280,15 +278,21 @@
   padding-top: 10px;
 }
 .d2card{
-  width: 22.8%;
+  width: 11rem;
   height: 130px;
   padding: 10px;
-  margin: 10px;
+  margin: 0.5rem;
+  margin-top: 10px;
   border: 1px solid lightgrey;
   border-radius: 20px;
 }
 .d2card .chalf img{
-  margin-left: 35px;
+  margin-left: 1.5rem;
+}
+.d2card .cfull p{
+  font-size: 1.5rem;
+  margin-left: 0.5rem;
+  padding-bottom: 50px;
 }
 /* <--------> */
 .ltemp-card{
@@ -299,10 +303,10 @@
 }
 .lcards h3{
   font-size: x-large;
-  padding-top: 15px;
+  padding-top: 3rem;
 }
 .Highlight{
-  width: 300px;
+  width: 18rem;
   height: 130px;
   padding: 15px;
   margin: 10px;
@@ -311,7 +315,7 @@
   background-color: rgb(245, 243, 243);
 }
 .Highlight2{
-  width: 225px;
+  width: 10rem;
   height: 130px;
   margin: 10px;
   padding-top: 5px;
@@ -366,32 +370,38 @@
   display: flex;
 }
 .ltemp img{
-  width: 55px;
-  height: 55px;
+  width: 5rem;
+  height: 3rem;
 }
 .ltemp-cont{
   display: flex;
-  width: 200px;
-  height: 60px;
+  width: 9rem;
+  height: 2.5rem;
   border: 2px solid yellow;
   border-radius: 12px;
   background-color: yellow;
-  padding-left: 10px;
 }
 .vl{
   border-left: 4px solid black;
-  height: 50px;
+  height: 2rem;
   position: absolute;
-  left: 54%;
-  margin-left: -3px;
+  left: 55%;
+  margin-left: 4rem;
   top: 10;
 }
 .ltempCont1{
   padding-right: 30px;
 }
-.ltemp-cont h5{
-  margin-top: 10px;
+.ltempCont1 p{
+  font-size: xx-small;
+  font-weight: 800;
+  margin-left: 0.5rem;
 }
+.ltemp-cont h6{
+  margin-top: 0.5rem;
+  margin-right: 0.5rem;
+}
+
 
 /* Additional info */
 .additional-info {
@@ -400,7 +410,7 @@
 .nav2{
   display: flex;
   margin-top: 30px;
-  margin-left: 120px;
+  margin-left: 3rem;
 }
 .notify img{
   width: 40px;
@@ -412,7 +422,7 @@
 }
 .user{
   display: flex;
-  margin-left: 290px;
+  margin-left: 10rem;
 }
 .user img{
   width: 40px;
@@ -434,10 +444,10 @@
   height: 15px;
 }
 .additionalCont{
-  width: 87%;
-  height: 85%;
-  margin-top: 60px;
-  margin-left: 100px;
+  width: 25rem;
+  height: 50rem;
+  margin-top: 4rem;
+  margin-left: 3rem;
   border: 0px solid rgb(245, 243, 243);
   border-radius: 60px;
   background-color: rgb(245, 243, 243);
@@ -445,27 +455,27 @@
 
 /* calender */
 .calender img{
-  width: 400px;
-  height: 300px;
-  margin-left: 75px;
+  width: 20rem;
+  height: 20rem;
+  margin-left: 2.5rem;
   border-radius: 0px 0px 40px 40px;
 }
 
 /* newsletter */
 .subscribe{
-  margin-top: 20px;
-  margin-bottom: 20px;
-  padding-top: 30px;
-  width: 400px;
-  height: 100px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding-top: 1.5rem;
+  width: 20rem;
+  height: 5.5rem;
   display: flex;
   border-radius: 30px;
   justify-content: center;
-  margin-left: 75px;
+  margin-left: 2.5rem ;
   background-color: white;
 }
 .subscribe span img{
-  margin-right: 40px;
+  margin-right: 1rem;
   width: 50px;
   height: 50px;
   justify-items: left;
@@ -480,9 +490,9 @@
 /* Google Playstore */
 .playstore{
   display: flex;
-  width: 400px;
-  height: 180px;
-  margin-left: 75px;
+  width: 20rem;
+  height: 12rem;
+  margin-left: 2.5rem;
   border-radius: 30px;
   border: 5px solid white;
   background-color: white;
@@ -493,8 +503,8 @@
   margin-left: 20px;
 }
 .phone{
-  width: 70px;
-  height: 80px;
+  width: 7rem;
+  height: 5rem;
   padding-left: 20px;
   margin-top: 50px;
 }
@@ -505,16 +515,16 @@
 .ginfo img{
   border: 2px solid lightgrey;
   border-radius: 15px;
-  width: 200px;
-  height: 65px;
-  margin-left: 50px;
+  width: 8rem;
+  height: 3rem;
+  margin-left: 3rem;
 }
 
 /* last card */
 .city{
-  width: 400px;
-  height: 130px;
-  margin-left: 75px;
+  width: 20rem;
+  height: 8rem;
+  margin-left: 2.5rem;
   margin-top: 20px;
   border-radius: 30px;
   background-color: white;
@@ -523,9 +533,9 @@
 }
 .addCity{
   border-radius: 10px;
-  width: 120px;
-  height: 50px;
-  margin-left: 250px;
+  width: 7rem;
+  height: 3.5rem;
+  margin-left: 10rem;
 }
 .addCity{
   padding-left: 15px;
