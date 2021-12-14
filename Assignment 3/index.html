@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css">
+
+    <!-- font-awesome css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+        integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+
+</head>
+
+<body>
+
+    <!-- outer container -->
+    <div class="outer">
+
+        <!-- data container -->
+        <div class="container-fluid">
+
+            <div class="first-container">
+                <ul class="nav-list">
+                    <div class="logo"><img
+                            src="https://user-images.githubusercontent.com/67793499/144968543-ec3e8da3-0f4e-4819-bcd3-02204c93dce4.png"
+                            alt="" class="logo">
+                    </div>
+
+                    <div style="font-size: 1.5rem;">
+                        <li><a class="btn btn-outline-secondary btn-lg" href="index.html"><i class="fa fa-home"></i></a>
+                        </li>
+                        <li><a class="btn btn-outline-secondary btn-lg" href="index.html"><i
+                                    class="fa fa-trello"></i></a></li>
+                        <li><a class="btn btn-outline-secondary btn-lg" cool-link href="index.html"><i
+                                    class="fa fa-cog"></i></a>
+                        </li>
+                        <li><a href="index.html"><img class="log" src="img/log-out.png" alt=""></a></li>
+                    </div>
+
+                </ul>
+            </div>
+
+            <div class="weather-info">
+                <div class="weather-header">
+                    <div class="head">
+                        <h3>Weather Forecast</h3>
+                        <p id="date">Saturday 26, December 2020</p>
+                    </div>
+
+                    <div class="boxContainer">
+                        <table class="elementsContainer">
+                            <tr>
+                                <div class="searchData">
+
+                                    <div class="seaicon">
+                                        <i class="material-icons">search</i>
+                                    </div>
+                                    <div class="inputseach">
+                                        <input class="inputValue" type="text" placeholder="Search">
+                                    </div>
+                                </div>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="container background">
+                    <div class="info">
+
+                        <h3 class="cityname">MECCA</h3>
+                        <p class="country">Saudi Arabia</p>
+
+                        <div class="temp">
+                            <p class=tmp>32</p><i>&deg;C</i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="data">
+                    <div class="days">
+                        <h3 class="today cool-link"> Today</h3>
+                        <a class="week cool-link" href="#">Week</a>
+                    </div>
+
+                    <div class="deg">
+                        <div class="cel">&#x2103;</div>
+                        <div class="far">&#x2109;</div>
+                    </div>
+                </div>
+
+                <!-- data cards -->
+                <div class="d1cards">
+                    <div class="dcard dcard1">
+                        <div class="chalf">
+                            <div class="dname">
+                                <h5 id="day1">Saturday</h5>
+                                <p class="status">Partly Cloudy</p>
+                            </div>
+                            <div id="cloud">
+                                <img style="width: 2rem; height: 2rem; margin-left: 2rem;"
+                                    src="https://user-images.githubusercontent.com/67793499/144970296-0b5813df-a9ef-4ecb-bc63-1a61d0e94326.png"
+                                    alt="">
+                            </div>
+                        </div>
+
+                        <div class="cfull">
+                            <div class="tdata">
+                                <li><img src="https://user-images.githubusercontent.com/67793499/144969654-1bec8bb1-673b-444a-a34b-aece408383ba.png"
+                                        alt=""> 10.3 km/h
+                                </li>
+                                <li><img src="https://user-images.githubusercontent.com/67793499/144969194-80f0ab45-4349-4d15-ada1-490bef55ceac.png"
+                                        alt="">60%</li>
+                            </div>
+                            <p class="tmp">32</p>&deg;
+                        </div>
+                    </div>
+
+                    <div class="dcard">
+                        <div class="chalf">
+                            <div class="dname">
+                                <h5 id="day2">Sunday</h5>
+                                <p>Rainy</p>
+                            </div>
+                            <div class="cloud">
+                                <img src="https://user-images.githubusercontent.com/67793499/144969756-ec329fb1-b807-44ef-8728-34b5158a5e15.png"
+                                    alt="">
+                            </div>
+                        </div>
+
+                        <div class="cfull">
+                            <div class="tdata">
+                                <li><img src="https://user-images.githubusercontent.com/67793499/144969851-b144d72c-81a0-4c68-afc7-99618748cf9c.png"
+                                        alt="">10.3 km/h</li>
+                                <li><img src="https://user-images.githubusercontent.com/67793499/144969899-e89c423c-9dbf-4755-bfa5-401f6507c2cb.png"
+                                        alt="">60%</li>
+                            </div>
+                            <p>22°</p>
+                        </div>
+                    </div>
+
+                    <div class="dcard">
+                        <div class="chalf">
+                            <div class="dname">
+                                <h5 id="day3">Monday</h5>
+                                <p>Sunny</p>
+                            </div>
+                            <div class="cloud">
+                                <img src="https://user-images.githubusercontent.com/67793499/144969959-fab189a1-d15e-4d48-b4c8-94ff8dc71e6e.png"
+                                    alt="">
+                            </div>
+                        </div>
+
+                        <div class="cfull">
+                            <div class="tdata">
+                                <li><img src="https://user-images.githubusercontent.com/67793499/144970012-ca48f6e7-aec7-4325-9f70-55168af6be67.png"
+                                        alt="">10.3 km/h</li>
+                                <li><img src="https://user-images.githubusercontent.com/67793499/144970057-88c03e6d-cb1c-421f-9144-12d041a07e08.png"
+                                        alt="">60%</li>
+                            </div>
+                            <p>23°</p>
+                        </div>
+                    </div>
+
+                    <div class="dcard">
+                        <div class="chalf">
+                            <div class="dname">
+                                <h5 id="day4">Tuesday</h5>
+                                <p>Sunny</p>
+                            </div>
+                            <div class="cloud">
+                                <img src="https://user-images.githubusercontent.com/67793499/144970351-47dd1d20-221c-4ada-9b3b-e59ff6c26cec.png"
+                                    alt="">
+                            </div>
+                        </div>
+
+                        <div class="cfull">
+                            <div class="tdata">
+                                <li><img src="https://user-images.githubusercontent.com/67793499/144970012-ca48f6e7-aec7-4325-9f70-55168af6be67.png"
+                                        alt="">10.3 km/h</li>
+                                <li><img src="https://user-images.githubusercontent.com/67793499/144970057-88c03e6d-cb1c-421f-9144-12d041a07e08.png"
+                                        alt="">60%</li>
+                            </div>
+                            <p>23°</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- data cards 2-->
+                <div class="d2cards">
+                    <div class="d2card">
+                        <div class="chalf">
+                            <div class="dname">
+                                <h5 id="day5">Wednesday</h5>
+                                <p>Sunny</p>
+                            </div>
+                            <div class="cloud">
+                                <img src="https://user-images.githubusercontent.com/67793499/144970409-f666c07c-823d-4988-9a14-0ca97f96011b.png"
+                                    alt="">
+                            </div>
+                        </div>
+
+                        <div class="cfull">
+                            <div class="tdata">
+                                <li><img src="https://user-images.githubusercontent.com/67793499/144970197-f532ef35-0cdc-47ed-9382-8d4e8db9c6a3.png"
+                                        alt="">10.3 km/h</li>
+                                <li><img src="https://user-images.githubusercontent.com/67793499/144970057-88c03e6d-cb1c-421f-9144-12d041a07e08.png"
+                                        alt="">60%</li>
+                            </div>
+                            <p> &nbsp;&nbsp;&nbsp; 32°</p>
+                        </div>
+                    </div>
+
+                    <div class="d2card">
+                        <div class="chalf">
+                            <div class="dname">
+                                <h5 id="day6">Thursday</h5>
+                                <p>Rainy</p>
+                            </div>
+                            <div class="cloud">
+                                <img src="https://user-images.githubusercontent.com/67793499/144970455-3fc8aabd-bb8e-4f5b-a9c0-49f397c61939.png"
+                                    alt="">
+                            </div>
+                        </div>
+
+                        <div class="cfull">
+                            <div class="tdata">
+                                <li><img src="https://user-images.githubusercontent.com/67793499/144970197-f532ef35-0cdc-47ed-9382-8d4e8db9c6a3.png"
+                                        alt="">10.3 km/h</li>
+                                <li><img src="https://user-images.githubusercontent.com/67793499/144970057-88c03e6d-cb1c-421f-9144-12d041a07e08.png"
+                                        alt="">60%</li>
+                            </div>
+                            <p>&nbsp;22°</p>
+                        </div>
+                    </div>
+
+                    <div class="d2card">
+                        <div class="chalf">
+                            <div class="dname">
+                                <h5 id="day7">Friday</h5>
+                                <p>Cold</p>
+                            </div>
+                            <div class="cloud">
+                                <img src="https://user-images.githubusercontent.com/67793499/144970491-810a5169-eff0-4f14-b33f-0dfd183ee1c0.png"
+                                    alt="">
+                            </div>
+                        </div>
+
+                        <div class="cfull">
+                            <div class="tdata">
+                                <li><img src="https://user-images.githubusercontent.com/67793499/144970197-f532ef35-0cdc-47ed-9382-8d4e8db9c6a3.png"
+                                        alt="">10.3 km/h</li>
+                                <li><img src="https://user-images.githubusercontent.com/67793499/144970057-88c03e6d-cb1c-421f-9144-12d041a07e08.png"
+                                        alt="">60%</li>
+                            </div>
+                            <p>23°</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- last data cards -->
+                <div class="lcards">
+                    <h3>Today's Highlight</h3>
+
+                    <div class="ltemp-card">
+                        <div class="tempCard">
+                            <div class="Highlight">
+                                <div class="sun">
+                                    <h5>Sunrise & Sunset</h5>
+                                    <img src="https://user-images.githubusercontent.com/67793499/144970527-4be19540-9d30-485c-8c51-803cab752ee7.png"
+                                        alt="">
+                                </div>
+
+                                <div class="up-down">
+                                    <div class="up">
+                                        <img src="https://user-images.githubusercontent.com/67793499/144970580-1cfed8d0-9e11-49d1-846d-1fb661f1f511.png"
+                                            alt="">
+                                        <p>5:50 AM <br> + 1m 20s</p>
+                                    </div>
+                                    <div class="down">
+                                        <img src="https://user-images.githubusercontent.com/67793499/144968957-687cc07a-afb2-49ce-8b15-66fa0f4c5d87.png"
+                                            alt="">
+                                        <p>5:25 PM <br> + 1m 20s</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="Highlight bg">
+                                <div class="temp">
+                                    <h5>Temp.Graph</h5>
+                                    <img src="https://user-images.githubusercontent.com/67793499/144970637-e8cbecd5-3c97-43af-8fbf-3a6584be3742.png"
+                                        alt="">
+                                </div>
+
+                                <div class="graph">
+                                    <img src="img/line-graph.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="Highlight2">
+                            <div class="ltemp">
+                                <h5>Air Quality index</h5>
+                                <img src="https://user-images.githubusercontent.com/67793499/144970699-58affc06-fd47-49a6-8e08-7492f2dd193f.png"
+                                    alt="">
+                            </div>
+                            <div class="ltemp-cont">
+                                <div class="ltempCont1">
+                                    <p>US AQI <br> 95*</p>
+                                </div>
+                                <div class="vl"></div>
+                                <h6>Moderate</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Additional Information -->
+            <div class="addition-info">
+                <div class="nav2">
+                    <div class="notify">
+                        <a href="#"><span><img src="img/notification.png" alt=""></span></a>
+                        <a href=""><span><img src="img/bell.png" alt="" class="bell"></span></a>
+
+                    </div>
+                    <div class="user">
+                        <a href=""><img src="img/user.png" alt=""></a>
+                        <a href="">
+                            <p>Fahim <img
+                                    src="https://user-images.githubusercontent.com/67793499/144969064-b13c1c4d-30ba-440e-902b-d142edf9e0cb.png"
+                                    alt=""></p>
+                        </a>
+                    </div>
+                </div>
+
+
+                <div class="additionalCont">
+                    <div class="calender">
+                        <img src="img/calender.png" alt="">
+                    </div>
+
+                    <div class="subscribe">
+                        <span><img src="img/aeroplane.png" alt=""></span>
+                        <span>
+                            <p>Subscribe to our newsletter</p>
+                        </span>
+                    </div>
+
+
+                    <div class="playstore">
+                        <a href="#"><img
+                                src="https://user-images.githubusercontent.com/67793499/144970896-9d71136a-61f1-448d-a86d-9913a652ff41.png"
+                                class="phone" alt=""></a>
+                        <div class="ginfo">
+                            <a href="#">
+                                <h5>Get Our weather app on your devices</h5>
+                            </a>
+                            <a href="#">
+                                <p>Get the weather app on your mobile</p>
+                            </a>
+                            <a href="#"><img src="img/get-it-on-google-play-logo.png" alt=""></a>
+                        </div>
+                    </div>
+
+                    <div class="city">
+                        <div class="addCity">
+                            <p>+ Add City</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <script>
+        const curDate = document.getElementById("date");
+        let weathercon = document.getElementById("weathercon");
+
+        const tempStatus = "Clouds";
+
+        const getCurrentDay = () => {
+
+            var weekday = new Array(7);
+
+            weekday[0] = "Sunday";
+            weekday[1] = "Monday";
+            weekday[2] = "Tuesday";
+            weekday[3] = "Wednesday";
+            weekday[4] = "Thurday";
+            weekday[5] = "Friday";
+            weekday[6] = "Saturday";
+
+            let currentTime = new Date();
+            let day = weekday[currentTime.getDay()];
+            return day;
+        };
+
+
+        const day1 = document.getElementById("day1");
+        day1.innerHTML = getCurrentDay();
+
+        const getCurrentTime = () => {
+
+            var months = [
+                "January",
+                "February",
+                "March",
+                "April",
+                "May",
+                "June",
+                "July",
+                "August",
+                "September",
+                "October",
+                "November",
+                "December",
+            ];
+
+            var now = new Date();
+            var date = now.getDate();
+            var month = months[now.getMonth()];
+            var year = now.getFullYear();
+
+            let hours = now.getHours();
+            let mins = now.getMinutes();
+
+            let period = "AM";
+
+            if (hours > 11) {
+                period = "PM";
+                if (hours > 12) hours -= 12;
+            }
+            if (mins < 10) {
+                mins = "0" + mins;
+            }
+
+            return `${date} , ${month} ${year}`;
+
+        }
+
+        curDate.innerHTML = getCurrentDay() + " " + getCurrentTime();
+
+        const Day2 = () => {
+
+            var weekday = new Array(7);
+
+            weekday[0] = "Sunday";
+            weekday[1] = "Monday";
+            weekday[2] = "Tuesday";
+            weekday[3] = "Wednesday";
+            weekday[4] = "Thurday";
+            weekday[5] = "Friday";
+            weekday[6] = "Saturday";
+
+            let NEW = new Date();
+            let day = weekday[NEW.getDay() + 1];
+            return day;
+
+        };
+
+        const day2 = document.getElementById("day2");
+        day2.innerHTML = Day2();
+
+
+        const Day3 = () => {
+
+            var weekday = new Array(7);
+
+            weekday[0] = "Sunday";
+            weekday[1] = "Monday";
+            weekday[2] = "Tuesday";
+            weekday[3] = "Wednesday";
+            weekday[4] = "Thurday";
+            weekday[5] = "Friday";
+            weekday[6] = "Saturday";
+
+            let NEW = new Date();
+            let day = weekday[NEW.getDay() + 2];
+            return day;
+
+        };
+
+        const day3 = document.getElementById("day3");
+        day3.innerHTML = Day3();
+
+
+        const Day4 = () => {
+
+            var weekday = new Array(7);
+
+            weekday[0] = "Sunday";
+            weekday[1] = "Monday";
+            weekday[2] = "Tuesday";
+            weekday[3] = "Wednesday";
+            weekday[4] = "Thurday";
+            weekday[5] = "Friday";
+            weekday[6] = "Saturday";
+
+            let NEW = new Date();
+            let day = weekday[NEW.getDay() + 3];
+            return day;
+
+        };
+
+        const day4 = document.getElementById("day4");
+        day4.innerHTML = Day4();
+
+
+        const Day5 = () => {
+
+            var weekday = new Array(7);
+
+            weekday[0] = "Sunday";
+            weekday[1] = "Monday";
+            weekday[2] = "Tuesday";
+            weekday[3] = "Wednesday";
+            weekday[4] = "Thurday";
+            weekday[5] = "Friday";
+            weekday[6] = "Saturday";
+
+            let NEW = new Date();
+            let day = weekday[NEW.getDay() + 4];
+            return day;
+
+        };
+
+        const day5 = document.getElementById("day5");
+        day5.innerHTML = Day5();
+
+
+        const Day6 = () => {
+
+            var weekday = new Array(7);
+
+            weekday[0] = "Sunday";
+            weekday[1] = "Monday";
+            weekday[2] = "Tuesday";
+            weekday[3] = "Wednesday";
+            weekday[4] = "Thurday";
+            weekday[5] = "Friday";
+            weekday[6] = "Saturday";
+
+            let NEW = new Date();
+            let day = weekday[NEW.getDay()];
+            return day;
+
+        };
+
+        const day6 = document.getElementById("day6");
+        day6.innerHTML = Day6();
+
+        const Day7 = () => {
+
+            var weekday = new Array(7);
+
+            weekday[0] = "Sunday";
+            weekday[1] = "Monday";
+            weekday[2] = "Tuesday";
+            weekday[3] = "Wednesday";
+            weekday[4] = "Thurday";
+            weekday[5] = "Friday";
+            weekday[6] = "Saturday";
+
+            let NEW = new Date();
+            let day = weekday[NEW.getDay() + 1];
+            return day;
+
+        };
+
+        const day7 = document.getElementById("day7");
+        day7.innerHTML = Day7();
+
+    </script>
+
+    <!-- JQuery Script -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
