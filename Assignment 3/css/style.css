@@ -1,0 +1,538 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+.outer {
+  overflow-y: hidden;
+  overflow-x: hidden;
+  background-color: skyblue;
+  padding: 30px;
+}
+
+.container-fluid{
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 20px;
+  display: flex;
+  background-color: white;
+  padding-top: 0px;
+}
+.container-fluid img{
+  max-width: 100%;
+}
+/* first half */
+.first-container{
+  border-right: 10px solid rgb(245, 238, 238);
+}
+.nav-list {
+  width: 1.5rem;
+  margin-right: 5.5rem;
+  justify-content: center;
+}
+
+.logo {
+  width: 50px;
+  height: 70px;
+  padding-top: 20px;
+  margin-top: 10px;
+  margin-bottom: 120px;
+}
+
+.nav-list li{
+  width: 50px;
+  height: 50px;
+  margin-bottom: 30px;
+  padding-top: 20px;
+  margin-bottom: 40px;
+  padding-bottom: 40px;
+  text-decoration: none;
+  list-style-type: none;
+  color: black;
+}
+.log {
+  width: 30px;
+  height: 30px;
+  margin-top: 300px;
+  margin-left: 15px;
+}
+
+/* <--------> */
+
+/* second half */
+.weather-info{
+  margin-left: 1rem;
+  width: 50rem;
+  padding: 30px;
+}
+
+.weather-header {
+  width: 100%;
+  display: flex;
+}
+
+.head {
+  width: 50%;
+}
+.head p{
+  font-size: larger;
+  font-weight: 300;
+}
+/* <--------> */
+
+/* search bar */
+
+.boxContainer{
+  width: 20rem;
+  height: 3.5rem;
+  border: 4px solid rgb(245, 243, 243);
+  padding: 2px;
+  border-radius: 50px;
+  background-color: rgb(245, 243, 243);
+  margin-left: 120px;
+  justify-content: left;
+  text-align: center;
+  padding-top: 10px;
+}
+.searchData {
+  display: flex;
+}
+.material-icons{
+  color: #2980b9;
+  margin-top: 4px;
+  margin-right: 5px;
+}
+.inputValue{
+  background-color: rgb(245, 243, 243);
+  border: none;
+  margin-bottom: 5px;
+}
+/* <--------> */
+
+/* temp container */
+.container{
+  border: 1px solid lightgray;
+  border-radius: 20px;
+  display: flex;
+  background-color: white;
+}
+.info {
+  width: 700px;
+  height: 150px;
+}
+
+.container{
+  background-color: skyblue;
+}
+.background{
+  background-image: url(../img/bg.jpg);
+  flex-direction: row-reverse;
+  height: 9rem;
+}
+.container h3{
+  font-size: x-large;
+  font-weight: 800;
+  padding-top: 1rem;
+  margin-left: 20rem;
+  font-family: sans-serif;
+}
+
+.container p{
+  padding-top: 0rem;
+  font-weight: 500;
+  margin-left: 20rem;
+  font-family: sans-serif;
+}
+
+.temp {
+  font-size: 40px;
+}
+/* <--------> */
+
+.data{
+  display: flex;
+  padding-top: 35px;
+}
+.days{
+  width: 50%;
+  display: flex;
+  text-align: left;
+}
+.today{
+  padding-right: 10px;
+  font-weight: 300;
+}
+.week{
+  text-decoration: none;
+  font-size: x-large;
+  color: black;
+  font-weight: 800;
+}
+.cool-link::after{
+  content: '';
+  display: block;
+  
+  width: 0px;
+  height: 5px;
+  background: black;
+  transition: width .3s;
+}
+.cool-link:hover::after{
+
+  width: 100%;
+  transition: width .3s;
+}
+
+.deg{
+  width: 50%;
+  justify-content: right;
+  display: flex;
+}
+.cel{
+  width: 40px;
+  height: 40px;
+  border: 1px solid red;
+  justify-content: center;
+  border-radius: 50%;
+  padding-top: 8px;
+  padding-left: 8px;
+  margin-right: 8px;
+  background-color: red;
+  color: white;
+  font-weight: 1000;
+}
+.far{
+  width: 40px;
+  height: 40px;
+  border: 1px solid lightgray;
+  justify-content: center;
+  border-radius: 50%;
+  padding-top: 8px;
+  padding-left: 8px;
+  font-weight: 1000;
+}
+/* <--------> */
+
+/* card */
+.d1cards{
+  display: flex;
+  padding-top: 10px;
+}
+.dcard{
+  width: 12rem;
+  height: 130px;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid lightgrey;
+  border-radius: 20px;
+}
+.dcard1{
+  border: 2px solid skyblue;
+
+}
+.chalf{
+  display: flex;
+}
+.chalf p{
+  padding: 0;
+  font-size: small;
+}
+.cloud img{
+  width: 2rem;
+  height: 2rem;
+  margin-left: 15px;
+} 
+
+.cfull{
+  display: flex;
+}
+.tdata {
+  padding-bottom: 50px;
+}
+.tdata img{
+  padding-right: 5px;
+  width: 15px;
+  height: 15px;
+}
+.tdata li{
+  list-style-type: none;
+  font-size: 12px;
+}
+.cfull p{
+  font-size: 1.5rem;
+  margin-left: 5px;
+  padding-bottom: 50px;
+}
+.d2cards{
+  display: flex;
+  padding-top: 10px;
+}
+.d2card{
+  width: 11rem;
+  height: 130px;
+  padding: 10px;
+  margin: 0.5rem;
+  margin-top: 10px;
+  border: 1px solid lightgrey;
+  border-radius: 20px;
+}
+.d2card .chalf img{
+  margin-left: 1.5rem;
+}
+.d2card .cfull p{
+  font-size: 1.5rem;
+  margin-left: 0.5rem;
+  padding-bottom: 50px;
+}
+/* <--------> */
+.ltemp-card{
+  display: flex;
+}
+.tempCard{
+  display: flex;
+}
+.lcards h3{
+  font-size: x-large;
+  padding-top: 3rem;
+}
+.Highlight{
+  width: 18rem;
+  height: 130px;
+  padding: 15px;
+  margin: 10px;
+  border: 1px solid lightgrey;
+  border-radius: 20px;
+  background-color: rgb(245, 243, 243);
+}
+.Highlight2{
+  width: 10rem;
+  height: 130px;
+  margin: 10px;
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-bottom: 5px;
+  padding-right: 5px;
+  border: 1px solid lightgrey;
+  border-radius: 20px;
+  background-color: rgb(245, 243, 243);
+}
+.sun{
+  display: flex;
+}
+.sun img{
+  width: 55px;
+  height: 55px;
+  margin-left: 70px;
+}
+.Highlight .up-down img{
+  width: 35px;
+  height: 35px;
+  margin-right: 5px;
+}
+.up-down{
+  display: flex;
+  margin-top: 5px;
+}
+.up{
+  display: flex;
+  margin-right: 10px;
+}
+.down{
+  display: flex;
+  justify-content: right;
+}
+.bg{
+  background-color: rgb(245, 243, 243);
+}
+.temp{
+  display: flex;
+}
+.temp img{
+  width: 55px;
+  height: 55px;
+  margin-left: 80px;
+}
+.graph img{
+  width: 250px;
+  height: 65px;
+}
+.ltemp{
+  display: flex;
+}
+.ltemp img{
+  width: 5rem;
+  height: 3rem;
+}
+.ltemp-cont{
+  display: flex;
+  width: 9rem;
+  height: 2.5rem;
+  border: 2px solid yellow;
+  border-radius: 12px;
+  background-color: yellow;
+}
+.vl{
+  border-left: 4px solid black;
+  height: 2rem;
+  position: absolute;
+  left: 55%;
+  margin-left: 4rem;
+  top: 10;
+}
+.ltempCont1{
+  padding-right: 30px;
+}
+.ltempCont1 p{
+  font-size: xx-small;
+  font-weight: 800;
+  margin-left: 0.5rem;
+}
+.ltemp-cont h6{
+  margin-top: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+
+/* Additional info */
+.additional-info {
+  padding: 20%;
+}
+.nav2{
+  display: flex;
+  margin-top: 30px;
+  margin-left: 3rem;
+}
+.notify img{
+  width: 40px;
+  height: 40px;
+  padding: 2px;
+}
+.notify .bell{
+  margin-left: 20px;
+}
+.user{
+  display: flex;
+  margin-left: 10rem;
+}
+.user img{
+  width: 40px;
+  height: 40px;
+}
+.user a{
+  text-decoration: none;
+  color: black;
+}
+.user a p{
+  margin-left: 10px;
+  font-size: large;
+  text-align: center;
+  padding-top: 5px;
+}
+.user a p img{
+  margin-left: 10px;
+  width: 15px;
+  height: 15px;
+}
+.additionalCont{
+  width: 25rem;
+  height: 50rem;
+  margin-top: 4rem;
+  margin-left: 3rem;
+  border: 0px solid rgb(245, 243, 243);
+  border-radius: 60px;
+  background-color: rgb(245, 243, 243);
+}
+
+/* calender */
+.calender img{
+  width: 20rem;
+  height: 20rem;
+  margin-left: 2.5rem;
+  border-radius: 0px 0px 40px 40px;
+}
+
+/* newsletter */
+.subscribe{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding-top: 1.5rem;
+  width: 20rem;
+  height: 5.5rem;
+  display: flex;
+  border-radius: 30px;
+  justify-content: center;
+  margin-left: 2.5rem ;
+  background-color: white;
+}
+.subscribe span img{
+  margin-right: 1rem;
+  width: 50px;
+  height: 50px;
+  justify-items: left;
+}
+.subscribe span p{
+  padding-top: 5px;
+  font-size: large;
+  font-weight: 600;
+  color: red;
+}
+
+/* Google Playstore */
+.playstore{
+  display: flex;
+  width: 20rem;
+  height: 12rem;
+  margin-left: 2.5rem;
+  border-radius: 30px;
+  border: 5px solid white;
+  background-color: white;
+}
+.ginfo{
+  justify-content: right;
+  margin-top: 5px;
+  margin-left: 20px;
+}
+.phone{
+  width: 7rem;
+  height: 5rem;
+  padding-left: 20px;
+  margin-top: 50px;
+}
+.ginfo a{
+  text-decoration: none;
+  color: black;
+}
+.ginfo img{
+  border: 2px solid lightgrey;
+  border-radius: 15px;
+  width: 8rem;
+  height: 3rem;
+  margin-left: 3rem;
+}
+
+/* last card */
+.city{
+  width: 20rem;
+  height: 8rem;
+  margin-left: 2.5rem;
+  margin-top: 20px;
+  border-radius: 30px;
+  background-color: white;
+  padding-top: 25px;
+  background-image: url(../img/bg.jpg);
+}
+.addCity{
+  border-radius: 10px;
+  width: 7rem;
+  height: 3.5rem;
+  margin-left: 10rem;
+}
+.addCity{
+  padding-left: 15px;
+  padding-top: 10px;
+  background-color: skyblue;
+  color: black;
+  font-weight: 700;
+}
